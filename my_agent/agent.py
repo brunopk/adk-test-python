@@ -15,4 +15,4 @@ root_agent = Agent(
 
 from google.adk.apps.app import App
 
-app = App(root_agent=root_agent, name="app")
+app = App(root_agent=root_agent, name="my_agent")
