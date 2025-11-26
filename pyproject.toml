@@ -8,16 +8,8 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.10.19,<=3.10.19"
 dependencies = [
-    "google-adk (>=1.19.0,<2.0.0)"
+    "google-adk>=1.15.0,<2.0.0",
 ]
-
-[tool.poetry]
-package-mode=false
-
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
 
 [dependency-groups]
 dev = [
